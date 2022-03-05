@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">
+    <script src="assests/js/scrip.js"></script>
     <title>cachipun</title>
 </head>
-<body>
 
-    <script src="assests/js/scrip.js"></script>
+<body>
+    <div id="juego">
+		<h1>Juega Contra la Maquina</h1>
+		<div onclick="usuario('0');" id="piedra"></div>
+        <div onclick="usuario('1');" id="papel"></div>
+        <div onclick="usuario('2');" id="tijera"></div>
+	</div>
+    <div id="efecto" style="display:none" onclick="quitarEfecto();"> </div>
+</body>
 </html>
